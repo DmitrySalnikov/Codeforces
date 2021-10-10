@@ -1,23 +1,17 @@
 #include <bits/stdc++.h>
 
-using namespace std;
+using namespace std; // use '\n' instead of endl !!!
+
+using ll = long long;
 
 #define forn(i, n) for (int i = 0; i < n; ++i)
-
-int const N = 512;
+#define intc(a) int a; cin >> a
+#define llc(a) ll a; cin >> a
 
 int main() {
-  int i = 2; int j = 1; int k = 0; int s = 0;
-  while (true) {
-    char a;
-    cin >> a;
-    if (a != '\n') break;
-    cout << k + j++ << endl;
-    ++s;
-    if (s == i) {
-      s = 0;
-      ++i;
-      ++j;
-    }
-  }
+  cin.tie(nullptr)->sync_with_stdio(false);
+
+
+
+  return 0;
 }
